@@ -1,0 +1,36 @@
+:root{
+    --font-color: white;
+    --font-family: 'Poppins'
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    background-color: #222222;
+    color: var(--font-color);
+    font-family: var(--font-family);
+}
+
+.content-wrapper {
+    height: 100vh;
+}
+
+form .form-floating label {
+    color:#222222;
+}
+
+
+.socials {
+    position: relative;
+}
+
+.socials-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
